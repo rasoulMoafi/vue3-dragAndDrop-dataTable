@@ -111,7 +111,7 @@ function dropFunc(event: any) {
             droppedItem.value = headerLocationObject.value[index]
 
             // == check which direction the choisen header putted (left or right side of the header)
-            if (headerLocationObject.value[index].right - event.x < event.x - headerLocationObject.value[index].left) {
+            if (headerLocationObject.value[index].right - event.x > event.x - headerLocationObject.value[index].left) {
 
                 // == check the final position not less than index 0
                 if (Number(index) > 0) {

@@ -2,7 +2,7 @@
     <DataTableBase :headers="props.headers" :items="props.items" :configs="props.configs">
         <template #header="{ item }">
             <slot name="header" :item="item">
-                <!-- <p>{{ item.text }}</p> -->
+                <p style="background-color: orange;">{{ item.text }}</p>
                 <!-- <table>
                     <tr>
                         <th>{{ item.text }}</th>

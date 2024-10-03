@@ -1,10 +1,10 @@
 <template>
     <DataTableMain :headers="headers" :items="desserts" :configs="tableConfig">
-        <template #header="{ item }">
+        <!-- <template #header="{ item }">
             <div>
                 <p style="background-color: cyan;">{{ item.text }}</p>
             </div>
-        </template>
+        </template> -->
 
         <template #body_fat="{ item }">
             <p style="background-color: blue;">
