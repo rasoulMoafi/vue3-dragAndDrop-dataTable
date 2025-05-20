@@ -1,6 +1,6 @@
 {
-  "name": "drag-and-drop-data-table",
-  "version": "0.0.1",
+  "name": "draggifyTable",
+  "version": "1.0.0",
   "author": "Rasoul Moafi",
   "type": "module",
   "main": "dist/myindex.umd.js",
@@ -42,7 +42,7 @@
     "reactive"
   ],
   "license": "MIT",
-  "description": "This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3.",
+  "description": "A drag-and-drop data table component. The template uses Vue 3.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rasoulMoafi/vue3-dragAndDrop-dataTable.git"
